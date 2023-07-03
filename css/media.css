@@ -1,0 +1,302 @@
+@media screen and (max-width: 1920px) {
+    .container {
+      max-width: 1220px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 1440px) {
+    .container {
+      max-width: 1220px;
+    }
+  
+    .flex-start {
+      flex-wrap: wrap;
+    }
+  
+    .product_image {
+      min-height: 300px;
+      height: 60%;
+    }
+  
+    .product_image img {
+      height: 100%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 1024px) {
+    .container {
+      max-width: 960px;
+    }
+
+    .product--new .product__image {
+      width: 200px;
+      height: 260px;
+      margin-bottom: 20px;
+
+    }
+    
+    .footer {
+    gap: 150px;
+    }
+
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 720px;
+      padding-left: 16px;
+        padding-right: 16px;
+    }
+
+      .no-scroll {
+        overflow: hidden;
+      }
+        .user-nav {
+          margin-right: 0;
+        }
+      
+        .user-nav__item {
+          margin-left: 19px;
+        }
+      
+        .user-nav__item--search {
+          margin-top: 2px;
+        }
+      
+        .user-nav__item--search a {
+          width: 26px;
+          height: 26px;
+          background-size: 26px 26px;
+          background-position: center center;
+        }
+      
+        .user-nav__item--cart a {
+          width: 28px;
+          height: 24px;
+          background-size: 28px 24px;
+        }
+     
+        .site-nav__list {
+          flex-direction: column;
+          width: 100%;
+        }
+      
+        .site-nav__item {
+          width: 100%;
+          margin: 15px 0;
+          padding: 0;
+          text-align: center;
+        }
+      
+        .site-nav__item:nth-child(3n) {
+          text-align: center;
+        }
+      
+        .site-nav__item a {
+          font-size: 18px;
+          line-height: 25px;
+        }
+      
+        .site-nav {
+          padding-top: 2px;
+        }
+      
+        .site-nav--closed {
+          width: auto;
+        }
+      
+        .site-nav--closed .site-nav__list {
+          display: none;
+        }
+
+        .product--slider {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            min-height: auto;
+            padding: 0 0 60px;
+            background: #f9fdff;
+          }
+      
+        .site-nav--closed .site-nav__button {
+          display: block;
+          width: 29px;
+          height: 19px;
+          margin-left: 38px;
+          background-color: transparent;
+          background-image: url("../img/icon-burger.svg");
+          background-repeat: no-repeat;
+          background-size: 29px 19px;
+          background-position: center;
+          border: 0;
+          outline: 0;
+          cursor: pointer;
+        }
+      
+        .site-nav--opened {
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 100;
+          width: 100%;
+          height: 100vh;
+          padding-top: 187px;
+          box-sizing: border-box;
+          background-color: #303032;
+          overflow: auto;
+        }
+      
+        .site-nav--opened .site-nav__list {
+          display: flex;
+          z-index: 100;
+        }
+      
+        .site-nav--opened .site-nav__item {
+          margin-top: 0;
+          margin-bottom: 65px;
+        }
+      
+        .site-nav--opened .site-nav__item a {
+          font-size: 18px;
+          line-height: 25px;
+          color: #ffffff;
+        }
+      
+        .site-nav--opened .site-nav__button {
+          position: absolute;
+          top: 25px;
+          right: 25px;
+          display: block;
+          width: 30px;
+          height: 30px;
+          background-color: transparent;
+          background-image: url("../img/icon-cross.svg");
+          background-repeat: no-repeat;
+          background-size: 30px 30px;
+          background-position: center;
+          border: 0;
+          outline: 0;
+          cursor: pointer;
+        }
+      
+        .site-nav--no-js {
+          width: 100%;
+        }
+      
+        .site-nav--no-js .site-nav__list {
+          display: flex;
+        }
+      
+        .site-nav--no-js .site-nav__button {
+          display: none;
+        }
+
+        .page-header {
+          padding-bottom: 16px;
+          overflow: visible;
+          background: #ffffff;
+        }
+      
+        .page-header__wrapper {
+          flex-wrap: wrap;
+          width: 100%;
+          padding: 20px 14px 0 16px;
+          box-sizing: border-box;
+          background: #ffffff;
+        }
+      
+        .page-header__wrapper::before {
+          display: none;
+        }
+      
+        .page-header__wrapper .page-header__user-nav {
+          margin-left: auto;
+        }
+      
+        .page-header__logo {
+          width: 20px;
+          padding-top: 2px;
+        }
+      
+        .page-header__site-nav {
+          order: 2;
+          margin-left: 0;
+          flex-grow: 0;
+        }
+      
+        
+          .main-screen .swiper-pagination {
+            top: auto;
+            bottom: 9px;
+            right: 0;
+            width: auto;
+            height: auto;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 26px;
+          }
+        
+          .main-screen .swiper-slide {
+            background: #f9fdff 64%;
+          }
+      
+      
+     .footer {
+      flex-direction: column;
+      gap: 30px;
+      margin: 20px auto;
+     }
+
+  .main {
+    margin: 0;
+  }
+     .product--new .big-image {
+      display: none; 
+    }
+
+    .product--new .product__image {
+     margin: 0;
+      width: 700px;;
+      height: 710px;
+      display: inline-flex;
+      justify-content: center;
+      
+    }
+
+    .product--new,
+.product--sale {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+  
+  }
+
+  @media screen and (max-width: 425px) {
+   
+    .container {
+      max-width: 400px;
+
+    }
+
+    .product--slider {
+      flex-direction: row;
+
+    }
+
+   .product_info h2 {
+      font-size: 30px;
+   }
+
+}
+  
